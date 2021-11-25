@@ -1,0 +1,30 @@
+body{
+  background: linear-gradient(pink, yellow);
+  text-align: center;
+  margin-top: 25px;
+}
+.heading{
+font-size: 25px;
+color:red;
+font-family: 'Lobster', cursive;
+
+
+}
+.places{
+    color:green;
+    padding: 20px;
+    max-width: 500px;
+    font-size: 18px;
+    
+}
+hr{
+    border-style: solid;
+    width: 70%;
+    color:indigo;
+}
+.travel{
+    width: 500px;
+    height:350px;
+    margin:10px;
+    border: 5px ridge white;
+}
