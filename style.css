@@ -1,48 +1,4 @@
 body{
-    background: linear-gradient(to right,hotpink, yellow,pink);
-    text-align: center;
-    margin-top: 25px;
-}
-.heading{
-    font-size: 35px;
-    color:red;
-    font-family: 'Moon Dance', cursive;
-    text-shadow: 5px 5px 5px red;
-    letter-spacing: 2px;
-    text-decoration: underline;
-}
-.heading:hover{
-    transform: scale(1.5);
-}
-.places{
-    color:green;
-    padding: 20px;
-    max-width: 500px;
-    font-size: 18px;
-    
-}
-.places:hover{
-    color: blue;
-}
-hr{
-    border-style: solid;
-    width: 70%;
-    color:indigo;
-}
-.travel{
-    width: 500px;
-    height:350px;
-    margin:10px;
-    border: 5px ridge white;
-    box-shadow:5px 5px 25px red;
-}
-
-.travel:hover{
-    transform: rotate(-20deg);
-}
-
-
-body{
     /*Linear gradient is used to give mixed gradient colors*/
     background: linear-gradient(to right,hotpink, yellow,pink); 
     text-align: center;
