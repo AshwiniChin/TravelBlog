@@ -40,3 +40,62 @@ hr{
 .travel:hover{
     transform: rotate(-20deg);
 }
+
+
+body{
+    /*Linear gradient is used to give mixed gradient colors*/
+    background: linear-gradient(to right,hotpink, yellow,pink); 
+    text-align: center;
+    margin-top: 25px;
+}
+.heading{
+    font-size: 35px;
+    color:red;
+    /*The CSS rule is to be copied from google fonts*/
+    font-family: 'Moon Dance', cursive; 
+
+    /*The text-shadow CSS property adds shadows to text. It accepts a comma-separated list of shadows 
+    to be applied to the text*/
+    text-shadow: 5px 5px 5px red; 
+
+    /*The letter-spacing property increases or decreases the space between characters in a text.*/
+    letter-spacing: 2px;
+
+    /*The text-decoration property specifies the decoration added to text*/
+    text-decoration: underline;
+}
+
+/*:hover property imples when is the cursor on the specific element.*/
+.heading:hover{
+    /*The transform property applies a 2D or 3D transformation to an element. 
+    This property allows to rotate, scale, move, skew, etc., elements. Scale will increase the size */
+    transform: scale(1.5);
+}
+.places{
+    color:green;
+    padding: 20px;
+    max-width: 500px;
+    font-size: 18px;    
+}
+.places:hover{
+    color: blue;
+}
+hr{
+    border-style: solid;
+    width: 70%;
+    color:indigo;
+}
+.travel{
+    width: 500px;
+    height:350px;
+    margin:10px;
+    border: 5px ridge white;
+
+    /*Attaches one or more drop-shadows to the box. The property is a 
+    comma-separated list of shadows, i.e x, y, blur and color*/
+    box-shadow:5px 5px 25px red;
+}
+
+.travel:hover{
+    transform: rotate(-20deg);
+}
